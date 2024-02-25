@@ -1,0 +1,33 @@
+@media (max-width: 992px) {
+  header {
+    position: relative;
+    margin-bottom: 0px;
+  }
+
+  header nav {
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    background-color: bisque;
+    display: none;
+  }
+
+  header nav a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .burger-menu {
+    display: block;
+    color: black;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  header nav {
+    display: block !important;
+  }
+}
