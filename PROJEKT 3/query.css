@@ -1,0 +1,163 @@
+@media (min-width: 1301px) {
+  .menu {
+    display: flex !important;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .navigation {
+    position: relative;
+    margin-bottom: 0px;
+    margin: 0px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 13vh;
+    display: none;
+    left: 0;
+    width: 100%;
+    background-color: var(--second-color);
+  }
+
+  .menu a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .title {
+    scale: 0.8;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .city-names {
+    scale: 0.8;
+  }
+
+  .weather-card {
+    scale: 0.8;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .img {
+    margin: 5px auto;
+  }
+
+  .profile-wrapper {
+    width: 500px;
+    margin: 0px auto;
+  }
+
+  .footer-wrapper {
+    padding: 10px 20px;
+  }
+
+  .footer p {
+    font-size: 15px;
+  }
+
+  .footer h2 {
+    font-size: 15px;
+  }
+
+  .footer i {
+    font-size: 25px;
+  }
+
+  .social-media {
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .created {
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  .burger-menu {
+    font-size: 60px;
+  }
+
+  .title {
+    width: 80%;
+  }
+
+  .title h1 {
+    font-size: 60px;
+  }
+
+  .title p {
+    font-size: 28px;
+  }
+
+  #weather-id {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    width: 300px;
+    height: 380px;
+  }
+
+  .profile-info {
+    flex-direction: column;
+  }
+
+  .profile-wrapper {
+    margin: 50px 0px;
+  }
+
+  .input-info {
+    width: 100%;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+
+  .profile-info {
+    width: 100%;
+  }
+
+  .profile-wrapper {
+    width: 100%;
+  }
+
+  .weather-card {
+    width: 380px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .search-bar input {
+    width: 200px;
+  }
+}
